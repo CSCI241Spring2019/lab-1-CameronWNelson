@@ -1,0 +1,666 @@
+Script started on Thu 11 Apr 2019 12:04:04 PM PDT
+nelso332@CF165-14:~$ [Knelso332@CF165-14:~$ mkdir csci241
+nelso332@CF165-14:~$ cd csci241/
+nelso332@CF165-14:~/csci241$ ls
+nelso332@CF165-14:~/csci241$ ^X[Kgit clone ^V[K[2~[K[K[Khttps://github.com/CSCI241Spring2019/lab-1-CameronWNelson.git
+Cloning into 'lab-1-CameronWNelson'...
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)   [Kremote: Counting objects:  25% (2/8)   [Kremote: Counting objects:  37% (3/8)   [Kremote: Counting objects:  50% (4/8)   [Kremote: Counting objects:  62% (5/8)   [Kremote: Counting objects:  75% (6/8)   [Kremote: Counting objects:  87% (7/8)   [Kremote: Counting objects: 100% (8/8)   [Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0[K
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+Checking connectivity... done.
+nelso332@CF165-14:~/csci241$ ls
+lab-1-CameronWNelson
+nelso332@CF165-14:~/csci241$ git[K[K[Kcd lab-1-CameronWNelson/
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git config --global user.name "Cameron Nelson"
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git config --global user.email username@wwu.edu[1Pe@wwu.edu[1Pe@wwu.edu[1P@wwu.edu[1P@wwu.edu[1P@wwu.edu[1P@wwu.edu[1P@wwu.edu[1P@wwu.edun@wwu.edue@wwu.edul@wwu.edus@wwu.eduo@wwu.edu3@wwu.edu3@wwu.edu2@wwu.edu[C[C[C[C[C[C[C[C
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ cd lab-1-Cameron [KWNelson
+bash: cd: lab-1-CameronWNelson: No such file or directory
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ cd lab-1-CameronWNelson[K[K[K[K[K[K[K[K[K[K[K[K[K[K< Cameron[K[K[K[K[K[K[K[KCameron Nelson>
+bash: syntax error near unexpected token `newline'
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ touch writep[Kup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git add writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit - [Km "add[K[K[KAdded emptu[Ky writeup"
+[master 3817e15] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': git push origin master
+Password for 'https://git push origin master@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-CameronWNelson.git/'
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git push origin master
+Username for 'https://github.com': CameronWNelson
+Password for 'https://CameronWNelson@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 318 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-CameronWNelson.git
+   1523c09..3817e15  master -> master
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ edu[K[Kdit [K[K[K[K[Kls
+build.gradle  src  writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ emacs writeup.txt 
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git add writeup.txt 
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit -m "add[K[K[KAdded part 1 (names to [K[K[K[K) to writeup"
+[master 23e007d] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ emacs -[Kwriteup.txt 
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git add writeup.txt 
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ s[Kgit status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit -m ([K"Added part 2 (names_[K) to writeup"
+[master b7d7792] Added part 2 (names) to writeup
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git push w[Koriting m[K[K[K[K[K[Kgin master
+Username for 'https://github.com': CameronWNelson
+Password for 'https://CameronWNelson@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 567 bytes | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-CameronWNelson.git
+   3817e15..b7d7792  master -> master
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git add writeup.txt 
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit writeup.txt -m"[K " [KAdded part 2 (hobbies[K[K[Ky) to  writeup)
+> git push origin master
+> git commit writeup.txt -m "Added part 2 (hobby) to writeup)
+git push origin master[A[C[C[K
+[K[A[C[Cq[K"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git statuscommit writeup.txt -m "Added part 2 (hobby) to wwriteup)
+git push origin master
+"[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Padd writeup.txt
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git add writeup.txt [Kgit commit writeup.txt -,[Km "Added part 2 (hobby) to  writeup"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit writeup.txt -m "Added part 2 (hobby) to wwriteup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Padd writeup.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git add writeup.txt commit writeup.txt -m "Added part 2 (hobby) to wwriteup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Padd writeup.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit writeup.txt -m "Added part 2 (hobby) to wwriteup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m "Added part 2 (hobby) to wr[1Piteup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m "Added part 2 (hobby) to wri[1Pteup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m "Added part 2 (hobby) to writ[1Peup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m "Added part 2 (hobby) to write[1Pup"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m "Added part 2 (hobby) to writeu[1Pp"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m "Added part 2 (hobby) to writeup[1P"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m "Added part 2 (hobby) to writeup"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m "Added part 2 (hobby) to writeup" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ touch username
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ ls
+build.gradle  src  username  writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ rd [K[Kd username 
+rd: command not found
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ rm username 
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ touch writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ emacs touch writeup.txt[11Pemacs [K[K[K[K[K[Kls
+build.gradle  src  writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ touch username.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ emacs username.txt 
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git.[K add username.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit username.txt -m "Added name and username s"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m "Added name and usernames"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m "Added name and usernames" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[master 3f0aa4d] Added name and usernames
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git push origin master
+Username for 'https://github.com': CameronWNelson
+Password for 'https://CameronWNelson@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 380 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-CameronWNelson.git
+   b7d7792..3f0aa4d  master -> master
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git checkout
+Your branch is up-to-date with 'origin/master'.
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git rm
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ ls
+build.gradle  src  username.txt  username.txt~	writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git reset
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ ls
+build.gradle  src  username.txt  username.txt~	writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ touch dummy.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git add dummy.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git rm dummy.txt 
+error: the following file has changes staged in the index:
+    dummy.txt
+(use --cached to keep the file, or -f to force removal)
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ gir rm -f dummy.txt 
+No command 'gir' found, did you mean:
+ Command 'gip' from package 'gip' (universe)
+ Command 'gri' from package 'gri' (universe)
+ Command 'git' from package 'git' (main)
+ Command 'gij' from package 'gcj-jre-headless' (universe)
+ Command 'dir' from package 'coreutils' (main)
+ Command 'gpr' from package 'gpr' (universe)
+ Command 'gid' from package 'id-utils' (universe)
+gir: command not found
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ gir rm -f dummy.txt [C[1P[1@t
+rm 'dummy.txt'
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ ls
+build.gradle  src  username.txt  username.txt~	writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ ig [K[K[Kgit mv writeup.txt  [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khelp
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Forward-port local commits to the updated upstream head
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git help mv
+[?1049h[?1h=GIT-MV(1)                                   Git Manual                                   GIT-MV(1)[m
+[m
+[1mNAME[0m[m
+       git-mv - Move or rename a file, a directory, or a symlink[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mmv[24m <options>... <args>...[m
+[m
+[1mDESCRIPTION[0m[m
+       Move or rename a file, directory or symlink.[m
+[m
+           git mv [-v] [-f] [-n] [-k] <source> <destination>[m
+           git mv [-v] [-f] [-n] [-k] <source> ... <destination directory>[m
+[m
+       In the first form, it renames <source>, which must exist and be either a file, symlink or[m
+       directory, to <destination>. In the second form, the last argument has to be an existing[m
+       directory; the given sources will be moved into this directory.[m
+[m
+       The index is updated after successful completion, but the change must still be committed.[m
+[m
+[1mOPTIONS[0m[m
+       -f, --force[m
+           Force renaming or moving of a file even if the target exists[m
+[m
+       -k[m
+           Skip move or rename actions which would lead to an error condition. An error happens[m
+           when a source is neither existing nor controlled by Git, or when it would overwrite an[m
+           existing file unless [4m-f[24m is given.[m
+[m
+       -n, --dry-run[m
+           Do nothing; only show what would happen[m
+[m
+       -v, --verbose[m
+           Report the names of files as they are moved.[m
+[m
+[1mSUBMODULES[0m[m
+       Moving a submodule using a gitfile (which means they were cloned with a Git version 1.7.8[m
+       or newer) will update the gitfile and core.worktree setting to make the submodule work in[m
+       the new location. It also will attempt to update the submodule.<name>.path setting in the[m
+       [1mgitmodules[0m(5) file and stage that file (unless -n is used).[m
+[m
+[1mBUGS[0m[m
+       Each time a superproject update moves a populated submodule (e.g. when switching between[m
+       commits before and after the move) a stale submodule checkout will remain in the old[m
+       location and an empty directory will appear in the new location. To populate the submodule[m
+       again in the new location the user will have to run "git submodule update" afterwards.[m
+       Removing the old directory is only safe when it uses a gitfile, as otherwise the history of[m
+       the submodule will be deleted too. Both steps will be obsolete when recursive submodule[m
+       update has been implemented.[m
+[m
+[1mGIT[0m[m
+       Part of the [1mgit[0m(1) suite[m
+[m
+Git 2.7.4                                   11/27/2018                                   GIT-MV(1)[m
+[7m Manual page git-mv(1) line 1/54 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049lnelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ ig[K[Kgit mv writeup.txt newname.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ ls
+build.gradle  newname.txt  src	username.txt  username.txt~
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git.[K mv nem[Kwname.txt writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ ls
+build.gradle  src  username.txt  username.txt~	writeup.txt
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git blame writeup.txt 
+[?1h=b7d77929 (Cameron Nelson 2019-04-11 12:32:39 -0700 1) 1) Cameron Nelson[m
+b7d77929 (Cameron Nelson 2019-04-11 12:32:39 -0700 2) 2) Hobby: Magic (trading card game)[m
+[K[?1l>nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git log
+[?1h=[33mcommit 3f0aa4d0ff5846c843c461e4313714c3d6276cb4[m[m
+Author: Cameron Nelson <nelso332@wwu.edu>[m
+Date:   Thu Apr 11 12:42:49 2019 -0700[m
+[m
+    Added name and usernames[m
+[m
+[33mcommit b7d77929e93157a2e90bc646e2589e479a453fd4[m[m
+Author: Cameron Nelson <nelso332@wwu.edu>[m
+Date:   Thu Apr 11 12:32:39 2019 -0700[m
+[m
+    Added part 2 (names) to writeup[m
+[m
+[33mcommit 23e007d26bd2f581f02829121ee3a124ba82797a[m[m
+Author: Cameron Nelson <nelso332@wwu.edu>[m
+Date:   Thu Apr 11 12:29:25 2019 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 3817e15692c461e1bab637eb6446f86797aa0877[m[m
+Author: Cameron Nelson <nelso332@wwu.edu>[m
+Date:   Thu Apr 11 12:21:55 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[K[?1l>nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git diff writeup.txt 
+[?1h=[K[?1l>nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ view writeup.txt 
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;67r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[67;1H"writeup.txt" [readonly] 2L, 54C[>c[1;1H1) Cameron Nelson
+2) Hobby: Magic (trading card game)
+[94m~                                                                                                    [4;1H~                                                                                                    [5;1H~                                                                                                    [6;1H~                                                                                                    [7;1H~                                                                                                    [8;1H~                                                                                                    [9;1H~                                                                                                    [10;1H~                                                                                                    [11;1H~                                                                                                    [12;1H~                                                                                                    [13;1H~                                                                                                    [14;1H~                                                                                                    [15;1H~                                                                                                    [16;1H~                                                                                                    [17;1H~                                                                                                    [18;1H~                                                                                                    [19;1H~                                                                                                    [20;1H~                                                                                                    [21;1H~                                                                                                    [22;1H~                                                                                                    [23;1H~                                                                                                    [24;1H~                                                                                                    [25;1H~                                                                                                    [26;1H~                                                                                                    [27;1H~                                                                                                    [28;1H~                                                                                                    [29;1H~                                                                                                    [30;1H~                                                                                                    [31;1H~                                                                                                    [32;1H~                                                                                                    [33;1H~                                                                                                    [34;1H~                                                                                                    [35;1H~                                                                                                    [36;1H~                                                                                                    [37;1H~                                                                                                    [38;1H~                                                                                                    [39;1H~                                                                                                    [40;1H~                                                                                                    [41;1H~                                                                                                    [42;1H~                                                                                                    [43;1H~                                                                                                    [44;1H~                                                                                                    [45;1H~                                                                                                    [46;1H~                                                                                                    [47;1H~                                                                                                    [48;1H~                                                                                                    [49;1H~                                                                                                    [50;1H~                                                                                                    [51;1H~                                                                                                    [52;1H~                                                                                                    [53;1H~                                                                                                    [54;1H~                                                                                                    [55;1H~                                                                                                    [56;1H~                                                                                                    [57;1H~                                                                                                    [58;1H~                                                                                                    [59;1H~                                                                                                    [60;1H~                                                                                                    [61;1H~                                                                                                    [62;1H~                                                                                                    [63;1H~                                                                                                    [64;1H~                                                                                                    [65;1H~                                                                                                    [66;1H~                                                                                                    [m[67;84H1,1[11CAll]2;writeup.txt = (~/csci241/lab-1-CameronWNelson) - VIM]1;writeup.txt[1;1H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1H1) Cameron Nelson
+2) Hobby: Magic (trading card game)
+[94m~                                                                                                    [4;1H~                                                                                                    [5;1H~                                                                                                    [6;1H~                                                                                                    [7;1H~                                                                                                    [8;1H~                                                                                                    [9;1H~                                                                                                    [10;1H~                                                                                                    [11;1H~                                                                                                    [12;1H~                                                                                                    [13;1H~                                                                                                    [14;1H~                                                                                                    [15;1H~                                                                                                    [16;1H~                                                                                                    [17;1H~                                                                                                    [18;1H~                                                                                                    [19;1H~                                                                                                    [20;1H~                                                                                                    [21;1H~                                                                                                    [22;1H~                                                                                                    [23;1H~                                                                                                    [24;1H~                                                                                                    [25;1H~                                                                                                    [26;1H~                                                                                                    [27;1H~                                                                                                    [28;1H~                                                                                                    [29;1H~                                                                                                    [30;1H~                                                                                                    [31;1H~                                                                                                    [32;1H~                                                                                                    [33;1H~                                                                                                    [34;1H~                                                                                                    [35;1H~                                                                                                    [36;1H~                                                                                                    [37;1H~                                                                                                    [38;1H~                                                                                                    [39;1H~                                                                                                    [40;1H~                                                                                                    [41;1H~                                                                                                    [42;1H~                                                                                                    [43;1H~                                                                                                    [44;1H~                                                                                                    [45;1H~                                                                                                    [46;1H~                                                                                                    [47;1H~                                                                                                    [48;1H~                                                                                                    [49;1H~                                                                                                    [50;1H~                                                                                                    [51;1H~                                                                                                    [52;1H~                                                                                                    [53;1H~                                                                                                    [54;1H~                                                                                                    [55;1H~                                                                                                    [56;1H~                                                                                                    [57;1H~                                                                                                    [58;1H~                                                                                                    [59;1H~                                                                                                    [60;1H~                                                                                                    [61;1H~                                                                                                    [62;1H~                                                                                                    [63;1H~                                                                                                    [64;1H~                                                                                                    [65;1H~                                                                                                    [66;1H~                                                                                                    [m[67;84H1,1[11CAll"writeup.txt" [readonly] 2L, 54C[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[67;1H[38;5;224mW10: Warning: Changing a readonly file[m[67;84H[K[1;1H0]2;writeup.txt =+ (~/csci241/lab-1-CameronWNelson) - VIM]1;writeup.txt[?12l[?25h[?25l-1) Cameron Nelson[67;84H1,2[11CAll[1;2H[?12l[?25h[?25l) Cameron Nelson[1;18H[K[1;2H[?12l[?25h[?25l[67;1HType  :quit<Enter>  to exit Vim[67;32H[K[67;84H1,2[11CAll[1;2H[?12l[?25h[?25l[67;84H2,1[2;1H[?12l[?25h[?25l[67;1H[1mrecording @u[m[67;13H[K[67;84H2,1[11CAll[2;1H[?12l[?25h[?25l[67;1H[1m--c INSERT --[m [1mrecording @u[m[67;84H[K[67;84H2,1[11CAll[2;1H[?12l[?25h[?25lt2) Hobby: Magic (trading card game)[67;86H2[2;2H[?12l[?25h[?25le2) Hobby: Magic (trading card game)[67;86H3[2;3H[?12l[?25h[?25l2) Hobby: Magic (trading card game)[2;37H[K[67;86H2[2;2H[?12l[?25h[?25l2) Hobby: Magic (trading card game)[2;36H[K[67;86H1[2;1H[?12l[?25h[?25l[1;18H2) Hobby: Magic (trading card game)
+[94m~                                                                                                    [m[67;84H1,18[1;18H[?12l[?25h[?25l2) Hobby: Magic (trading card game)[1;52H[K[67;87H7[1;17H[?12l[?25h[?25l2) Hobby: Magic (trading card game)[1;51H[K[67;87H6[1;16H[?12l[?25h[67;1H[1mrecording @ur[m[67;13H[K[1;15H[?25l[67;84H1,15[10CAll[1;15H[?12l[?25h[?25l2) Hobby: Magic (trading card game)[1;50H[K[1;15H[?12l[?25h[?25l) Hobby: Magic (trading card game)[1;49H[K[1;15H[?12l[?25h[?25l[67;87H6[1;16H[?12l[?25h[?25l[67;1H[K[67;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[97m[41mE37: No write since last change (add ! to override)[m[1mrecording @u[m[67;13H[K[67;84H1,16[10CAll[1;16H[?12l[?25h[?25l[67;1H[K[67;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[97m[41mE37: No write since last change (add ! to override)[m[1mrecording @u[m[67;13H[K[67;84H1,16[10CAll[1;16H[?12l[?25h[?25l[67;1H[K[67;1H:[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l]2;Terminal]1;Terminal[67;1H[K[67;1H[?1l>[?12l[?25h[?1049lnelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git checkout -b question3
+Switched to a new branch 'question3'
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit help
+error: pathspec 'help' did not match any file(s) known to git.
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git help commit
+[?1049h[?1h=GIT-COMMIT(1)                               Git Manual                               GIT-COMMIT(1)[m
+[m
+[1mNAME[0m[m
+       git-commit - Record changes to the repository[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mcommit[24m [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend][m
+                  [--dry-run] [(-c | -C | --fixup | --squash) <commit>][m
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty][m
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>][m
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status][m
+                  [-i | -o] [-S[<keyid>]] [--] [<file>...][m
+[m
+[1mDESCRIPTION[0m[m
+       Stores the current contents of the index in a new commit along with a log message from the[m
+       user describing the changes.[m
+[m
+       The content to be added can be specified in several ways:[m
+[m
+        1. by using [4mgit[24m [4madd[24m to incrementally "add" changes to the index before using the [4mcommit[24m[m
+           command (Note: even modified files must be "added");[m
+[m
+        2. by using [4mgit[24m [4mrm[24m to remove files from the working tree and the index, again before using[m
+           the [4mcommit[24m command;[m
+[m
+        3. by listing files as arguments to the [4mcommit[24m command, in which case the commit will[m
+           ignore changes staged in the index, and instead record the current content of the[m
+           listed files (which must already be known to Git);[m
+[m
+        4. by using the -a switch with the [4mcommit[24m command to automatically "add" changes from all[m
+           known files (i.e. all files that are already listed in the index) and to automatically[m
+           "rm" files in the index that have been removed from the working tree, and then perform[m
+           the actual commit;[m
+[m
+        5. by using the --interactive or --patch switches with the [4mcommit[24m command to decide one by[m
+           one which files or hunks should be part of the commit, before finalizing the operation.[m
+           See the “Interactive Mode” section of [1mgit-add[0m(1) to learn how to operate these modes.[m
+[m
+       The --dry-run option can be used to obtain a summary of what is included by any of the[m
+       above for the next commit by giving the same set of parameters (options and paths).[m
+[m
+       If you make a commit and then find a mistake immediately after that, you can recover from[m
+       it with [4mgit[24m [4mreset[24m.[m
+[m
+[1mOPTIONS[0m[m
+       -a, --all[m
+           Tell the command to automatically stage files that have been modified and deleted, but[m
+           new files you have not told Git about are not affected.[m
+[m
+       -p, --patch[m
+           Use the interactive patch selection interface to chose which changes to commit. See[m
+           [1mgit-add[0m(1) for details.[m
+[m
+       -C <commit>, --reuse-message=<commit>[m
+           Take an existing commit object, and reuse the log message and the authorship[m
+           information (including the timestamp) when creating the commit.[m
+[m
+       -c <commit>, --reedit-message=<commit>[m
+           Like [4m-C[24m, but with [4m-c[24m the editor is invoked, so that the user can further edit the[m
+           commit message.[m
+[m
+       --fixup=<commit>[m
+           Construct a commit message for use with rebase --autosquash. The commit message will be[m
+           the subject line from the specified commit with a prefix of "fixup! ". See [1mgit-[0m[m
+           [1mrebase[0m(1) for details.[m
+[m
+[7m Manual page git-commit(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049lnelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ emacs writeup.txt 
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit -m[K[K[K[K[K[K[K[K[Kadd writeup.txt 
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit writeup.txt [K[K[K[K[K[K[K[K[K[K[K[K-,[Km "Added favorit[K[K[K[K[K[K[K[K part 3 (favorit s[K[K[K[K[K[K[K[K[Ksong)"t"[1P" "t"o" "w"r"i"t"e"u"p"
+[question3 da5ae99] Added part 3 (song) to writeup
+ 1 file changed, 1 insertion(+)
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git merge question3
+Updating 3f0aa4d..da5ae99
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git bar[K[Kranch 0d[K[K[K -d question3
+Deleted branch question3 (was da5ae99).
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git push origin master
+Username for 'https://github.com': nelson      CameronWNelson
+Password for 'https://CameronWNelson@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 377 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-CameronWNelson.git
+   3f0aa4d..da5ae99  master -> master
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ gradle build
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/nelso332/csci241/lab-1-CameronWNelson/build.gradle into local compi[m[100D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/nelso332/csci241/lab-1-CameronWNelson/build.gradle into local compi[m[100D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 21% EXECUTING [1s][m[34D[1B[1m> :jar[m[0K[6D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [2s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 4s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> Deleting unused version-specific caches in /home/nelso332/csci241/lab-1-CameronWNelson/.gradle[m[96D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mnelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mnelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ emacs src/main/java/lab1/hel[K[K[KHello.java
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ gradle run --args = [K[K[K="a[Kyour args here"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K"241"
+[0m
+[1A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/nelso332/csci241/lab-1-CameronWNelson/src/main/java/lab1/Hello.java:5: error: no suitable method found for println(String,String[])
+        System.out.println("Hello {0}", args);
+                  ^
+    method PrintStream.println() is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(char) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(long) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(float) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(double) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(char[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(String) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(Object) is not applicable
+      (actual and formal argument lists differ in length)
+1 error
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mnelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ gradle run --args="241"emacs src/main/java/lab1/Hello.java
+grade le run  
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ gradle run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mnelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ gradle run
+[0m
+[1A
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mnelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ gradle runemacs src/main/java/lab1/Hello.java
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ emacs src/main/java/lab1/Hello.javagradle run[Kemacs src/main/java/lab1/Hello.java[12Pgradle run --args="241"
+[0m
+[1A
+[1m> Task :run[m
+Hello 241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mnelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ gid add src/main/java/lab1/Hello.java 
+The program 'gid' is currently not installed. To run 'gid' please ask your administrator to install the package 'id-utils'
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit -m "Hello now prints command line arg"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   src/main/java/lab1/Hello.java[m
+
+Untracked files:
+	[31m.gradle/[m
+	[31mbuild/[m
+	[31musername.txt~[m
+
+no changes added to commit
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git commit -m "Hello now prints command line arg"[11Pd add src/main/java/lab1/Hello.java [1P[1@t
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git add src/main/java/lab1/Hello.java commit -m "Hello now prints command line arg"
+[master 154e7a1] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': CameronWNelson
+Password for 'https://CameronWNelson@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 498 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/CSCI241Spring2019/lab-1-CameronWNelson.git
+   da5ae99..154e7a1  master -> master
+nelso332@CF165-14:~/csci241/lab-1-CameronWNelson$ exit
+exit
+
+Script done on Thu 11 Apr 2019 01:21:34 PM PDT
